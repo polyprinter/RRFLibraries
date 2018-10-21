@@ -51,6 +51,15 @@
 								<option id="gnu.cpp.compiler.option.include.paths.1840993326" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/common/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/preprocessor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/header_files}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/cmsis/sam4e/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/cmsis/sam4e/include/instance}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/thirdparty/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/variants/duetNG}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.335975082" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -115,7 +124,9 @@
 								<option id="gnu.cpp.compiler.option.other.other.1825748042" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -std=gnu++17 -mcpu=cortex-m4 -mthumb -ffunction-sections -fdata-sections -fno-threadsafe-statics -fno-rtti -fno-exceptions -nostdlib -Wdouble-promotion -fsingle-precision-constant &quot;-Wa,-ahl=$*.s&quot;" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.include.paths.597476340" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/portable/GCC/ARM_CM3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/common/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/preprocessor}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.930820560" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -180,7 +191,9 @@
 								<option id="gnu.cpp.compiler.option.other.other.1858598101" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -std=gnu++17 -mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -fno-threadsafe-statics -fno-rtti -fno-exceptions -nostdlib -Wdouble-promotion -fsingle-precision-constant &quot;-Wa,-ahl=$*.s&quot;" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1000409034" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/portable/GCC/ARM_CM7/r0p1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/common/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/preprocessor}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1146480956" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -246,6 +259,8 @@
 								<option id="gnu.cpp.compiler.option.include.paths.441257956" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/FreeRTOS/src/portable/GCC/ARM_CM4F}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/common/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CoreNG/asf/sam/utils/preprocessor}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1762529338" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
