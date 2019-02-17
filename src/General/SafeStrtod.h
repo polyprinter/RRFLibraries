@@ -18,6 +18,8 @@ inline long SafeStrtol(const char *s, const char **endptr = nullptr, int base = 
 
 unsigned long SafeStrtoul(const char *s, const char **endptr = nullptr, int base = 10);
 unsigned long SafeStrtoul(char *s, char **endptr = nullptr, int base = 10);
+unsigned long long SafeStrtoull(char *s, char **endptr = nullptr, int base = 10);
+unsigned long long SafeStrtoull(const char *s, const char **endptr, int base = 10);
 
 #define strtod(s, p) Do_not_use_strtod_use_SafeStrtod_instead
 #define strtof(s, p) Do_not_use_strtof_use_SafeStrtof_instead

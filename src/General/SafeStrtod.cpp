@@ -171,4 +171,41 @@ unsigned long SafeStrtoul(char *s, char **endptr, int base)
 	return strtoul(s, endptr, base);
 }
 
+
+unsigned long long SafeStrtoull(char *s, char **endptr, int base)
+{
+	// strtoul() accepts a leading minus-sign, which we don't want to allow
+	while (*s == ' ' || *s == '\t')
+	{
+		++s;
+	}
+	if (*s == '-')
+	{
+		if (endptr != nullptr)
+		{
+			*endptr = s;
+		}
+		return 0;
+	}
+	return strtoull(s, endptr, base);
+}
+
+unsigned long long SafeStrtoull(const char *s, const char **endptr, int base)
+{
+	// strtoul() accepts a leading minus-sign, which we don't want to allow
+	while (*s == ' ' || *s == '\t')
+	{
+		++s;
+	}
+	if (*s == '-')
+	{
+		if (endptr != nullptr)
+		{
+			*endptr = s;
+		}
+		return 0;
+	}
+	return strtoull(s,  const_cast<char**>(endptr), base);
+}
+
 // End
